@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "support-evidence-kit"
+version = "0.1.0"
+description = "Create sanitized, reproducible support escalation bundles."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Jeremy Pabalan" }]
+dependencies = []
+
+[project.scripts]
+support-evidence = "support_evidence_kit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

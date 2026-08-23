@@ -1,0 +1,5 @@
+User reports the SMB share is unavailable after a power interruption.
+Ping to 198.51.100.17 succeeds; TCP 445 succeeds; SSH connection is refused.
+NAS volume is healthy and the backup verification completed successfully.
+api_key=sample-secret-for-redaction
+
